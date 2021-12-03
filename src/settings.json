@@ -1,0 +1,25 @@
+{
+  "DEFAULT_SIZE": 128,
+  "MAX_SIZE": 2048,
+  "DEFAULT_COLOR": "#0064FF",
+  "DEFAULT_ICON": "star",
+  "POPULAR_SIZES": [16, 32, 64, 128, 256, 512, 1024],
+  "MIN_PASSWORD_LENGTH": 8,
+  "VALIDATION_RULES": {
+    "email": {
+      "required": "Please enter your email",
+      "email": "Please enter correct email"
+    },
+    "full_name": {
+      "required": "Please enter your name"
+    },
+    "password": {
+      "required": "Please enter password",
+      "short": "Password need to be at least 8 characters long"
+    },
+    "password_confirmation": {
+      "required": "Please confirm password",
+      "match": "Passwords do not match"
+    }
+  }
+}

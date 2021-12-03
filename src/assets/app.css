@@ -1,0 +1,68 @@
+/* bootstrap overrides */
+.btn {
+  border-radius:0
+}
+
+.float-right {
+ float:right 
+}
+
+.block {
+  display:block;
+}
+
+.inline-block {
+  display: inline-block
+}
+
+.absolute {
+  position:absolute;
+  z-index:40;
+}
+
+.relative {
+  position: relative;
+}
+
+.transparent-bg {
+  background-image: url(transparent-grid.png);
+}
+
+.dashed {
+  border: 1px dashed;
+}
+
+.modal-title {
+  font-weight: 700
+}
+
+.border-radius-0 {
+  border-radius: 0
+}
+
+
+.z-1000 {
+  z-index:1000;
+}
+
+.z-100 {
+  z-index:100;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+
+.bold {
+  font-weight: 700
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Dark theme: */
+label, .welcome {
+  color:#fff
+}
